@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bata_app_flutter_demo/home/home_page.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -47,6 +48,13 @@ class _SplashState extends State<Splash> {
       Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (BuildContext context)=>HomePage()), (rout)=>rout == null);
 //      Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>HomePage()));
 //      timer.cancel();
+      if (defaultTargetPlatform == TargetPlatform.android) {
+
+      }else if(defaultTargetPlatform == TargetPlatform.iOS){
+
+      }else if(defaultTargetPlatform == TargetPlatform.fuchsia){
+
+      }
 
     });
   }

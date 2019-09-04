@@ -20,6 +20,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
+#  # 内网地址 使用的话要用内网vpn
+#  flutter_density:
+#   git:
+#    url: git@192.168.1.23:mobile-libs/ihomefnt-flutter-density.git
+##    path: ihomefnt-flutter-density
 dev_dependencies:
   flutter_test:
     sdk: flutter
